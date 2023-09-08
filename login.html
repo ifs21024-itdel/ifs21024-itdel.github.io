@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Praktikum PABWE</title>
+  <style>
+    div{
+    display: inline-block;
+    vertical-align: top; 
+    margin-right: 20px;
+  }
+  form{
+    display: inline-block;
+    vertical-align: top;
+
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="blog.html">Blog</a>
+      <a href="challenge.html">Challenges</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header> 
+  <hr />
+
+
+  <div>
+  <main>
+    <form>  
+      <fieldset>
+      <legend><h2>Login</h2></legend>
+      <table cellpadding="5">
+        <tr>
+          <td><label for="email">Email</label></td>
+          <td><input type="text" id="email" name="email"></td>
+        </tr>
+        <tr>
+          <td><label for="password">Password</label></td>
+          <td><input type="text" id="password" name="password"></td>
+        </tr>
+        <tr align="center">
+          <td colspan="2">
+            <input type="submit" value="Submit">
+          </td>
+        </tr>
+      </table>
+    </fieldset>
+    </form>
+
+    <form>
+      <fieldset>
+      <legend><h2>Register</h2></legend>
+      <table cellpadding="5">
+      <tr>
+        <td><label for="nama">Nama Lengkap</label></td>
+        <td><input type="text" id="nama" name="name"></td>
+      </tr>
+      <tr>
+        <td><label for="email">Email</label></td>
+        <td><input type="text" id="email" name="email"></td>
+      </tr>
+      <tr>
+        <td><label for="pekerjaan">Pekerjaan</label></td>
+        <td><select name="pilihan pekerjaakn" id="pekerjaan">
+          <option value="mahasiswa">Mahasiswa</option>
+          <option value="asisten dosen">Asisten Dosen</option>
+          <option value="dosen">Dosen</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td><label for="password">Password</label></td>
+        <td><input type="text" id="password" name="password"></td>
+      </tr>
+      
+    </tr>
+    <tr align="center">
+      <td colspan="2">
+        <input type="submit" value="Submit">
+      </td>
+    </tr>
+      
+    </table>
+    </fieldset>
+    </form>
+  </main>
+</div>
+</body>
+</html>
